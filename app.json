@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "scheme": "gratitude-journal",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -30,14 +30,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/notification-icon.png",
-          "color": "#FF9500"
-        }
-      ]
+      "expo-router"
     ],
     "experiments": {
       "typedRoutes": true

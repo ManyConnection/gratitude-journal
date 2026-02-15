@@ -1,7 +1,6 @@
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
-import * as Notifications from 'expo-notifications';
 import { getSettings } from '@/utils/storage';
 import { scheduleReminder } from '@/utils/notifications';
 
